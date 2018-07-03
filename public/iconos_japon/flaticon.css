@@ -1,0 +1,81 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:14
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-bamboo-canes:before { content: "\f100"; }
+.flaticon-bonsai:before { content: "\f101"; }
+.flaticon-bowl-and-chopsticks:before { content: "\f102"; }
+.flaticon-bowl-with-rice-and-chopsticks:before { content: "\f103"; }
+.flaticon-bowl-with-sauce-for-sushi:before { content: "\f104"; }
+.flaticon-brochette:before { content: "\f105"; }
+.flaticon-cherry-blossom:before { content: "\f106"; }
+.flaticon-chinese-pagoda:before { content: "\f107"; }
+.flaticon-chopsticks-box:before { content: "\f108"; }
+.flaticon-crab:before { content: "\f109"; }
+.flaticon-crayfish:before { content: "\f10a"; }
+.flaticon-crossed-swords:before { content: "\f10b"; }
+.flaticon-cup-and-bottle-of-sake:before { content: "\f10c"; }
+.flaticon-cup-of-tea:before { content: "\f10d"; }
+.flaticon-fish-on-frying-pan:before { content: "\f10e"; }
+.flaticon-flag-of-japan:before { content: "\f10f"; }
+.flaticon-flower-with-round-petals:before { content: "\f110"; }
+.flaticon-geisha:before { content: "\f111"; }
+.flaticon-geisha-1:before { content: "\f112"; }
+.flaticon-geisha-fan:before { content: "\f113"; }
+.flaticon-japanese-bridge:before { content: "\f114"; }
+.flaticon-japanese-chopsticks:before { content: "\f115"; }
+.flaticon-japanese-dish-with-chopsticks:before { content: "\f116"; }
+.flaticon-japanese-food:before { content: "\f117"; }
+.flaticon-japanese-food-1:before { content: "\f118"; }
+.flaticon-japanese-food-2:before { content: "\f119"; }
+.flaticon-japanese-food-3:before { content: "\f11a"; }
+.flaticon-japanese-food-4:before { content: "\f11b"; }
+.flaticon-japanese-food-5:before { content: "\f11c"; }
+.flaticon-japanese-food-table:before { content: "\f11d"; }
+.flaticon-japanese-food-with-chopsticks:before { content: "\f11e"; }
+.flaticon-japanese-gate:before { content: "\f11f"; }
+.flaticon-japanese-geta:before { content: "\f120"; }
+.flaticon-japanese-teapot:before { content: "\f121"; }
+.flaticon-japanese-umbrella:before { content: "\f122"; }
+.flaticon-japanese-water-flower:before { content: "\f123"; }
+.flaticon-onigiri:before { content: "\f124"; }
+.flaticon-origami-crane:before { content: "\f125"; }
+.flaticon-raw-fish:before { content: "\f126"; }
+.flaticon-shuriken:before { content: "\f127"; }
+.flaticon-snowy-mountains:before { content: "\f128"; }
+.flaticon-sushi:before { content: "\f129"; }
+.flaticon-sushi-1:before { content: "\f12a"; }
+.flaticon-sushi-and-chopsticks:before { content: "\f12b"; }
+.flaticon-sushi-and-chopsticks-1:before { content: "\f12c"; }
+.flaticon-sushi-roll:before { content: "\f12d"; }
+.flaticon-torii-gate:before { content: "\f12e"; }
+.flaticon-whales-swimming:before { content: "\f12f"; }
+.flaticon-yin-yang-symbol:before { content: "\f130"; }
+.flaticon-zen-stones:before { content: "\f131"; }

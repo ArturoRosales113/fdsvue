@@ -1,0 +1,261 @@
+/*
+#### Fuentes ####
+*/
+
+@font-face {
+ font-family: 'FuturaBT-MediumCondensed';
+ src:  url('../font/FuturaBT-MediumCondensed.otf') format('embedded-opentype'),
+ url('../font/FuturaBT-MediumCondensed.woff') format('woff'),
+ url('../font/FuturaBT-MediumCondensed.woff2') format('woff2'), url('../font/FuturaBT-MediumCondensed.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'FuturaBT-LightCondensed';
+ src: url('../font/FuturaBT-LightCondensed.eot') format('embedded-opentype'),
+ url('../font/FuturaBT-LightCondensed.ttf') format('truetype'),
+ url('../font/FuturaBT-LightCondensed.woff') format('woff'),
+ url('../font/FuturaBT-LightCondensed.woff2') format('woff2');
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+/*
+### Colores ###
+*/
+
+.c-1 {
+ color: #e73d83;
+}
+.gd-1 {
+ background-color: rgba(0, 0, 0, .5);
+}
+.gd-2 {
+ background-color: rgba(231, 61, 131, .3);
+}
+.bg-1 {
+ background-color: #3b3b3b;
+}
+.bg-2 {
+ background-color: #e73d83;
+}
+.bg-3 {
+ background-color: #F900FF;
+}
+.bg-4 {
+ background-color: #14CCAC;
+}
+/*
+#### Fuentes ####
+*/
+.font1 {
+ font-family: 'FuturaBT-MediumCondensed', sans-serif;
+}
+.font2 {
+ font-family: 'FuturaBT-LightCondensed', sans-serif;
+ letter-spacing: .1em;
+}
+
+.half__em{
+ font-size: .5em !important;
+}
+.one__em{
+ font-size: 1em !important;
+}
+.one__half__em{
+ font-size: 1.5em !important;
+}
+.two__em{
+ font-size: 2em !important;
+}
+.three__em{
+ font-size: 3em !important;
+}
+/*
+#### Alturas ####
+*/
+.quarter__vh{
+ min-height: 25vh;
+}
+.half__vh{
+ min-height: 50vh;
+}
+.tquarter__vh{
+ min-height: 75vh;
+}
+.one__vh{
+ min-height: 100vh;
+}
+
+
+/*
+#### General ####
+*/
+
+body {
+ font-family: 'Lato', sans-serif;
+ font-size: 1.2em;
+ color: #000;
+ overflow-x: hidden;
+ background-image: url('../img/shintai_fondo.jpg');
+ background-size: cover;
+}
+footer {
+ border-top: 2px solid #863788;
+ margin-top: 1em;
+}
+::-webkit-scrollbar {
+ display: none;
+}
+#g_navbar{
+ transition: all 1s ease-out;
+ background-color: #ffffff;
+}
+#g_navbar .nav-link {
+ font-size: .8em;
+ letter-spacing: .1em;
+ text-transform: capitalize;
+ color: #000;
+ transition: all .3s ease-out;
+}
+#g_navbar .nav-link:hover{
+  letter-spacing: .2em;
+}
+#g_navbar::after{
+ content: '';
+ padding: 0;
+ display: block;
+ margin-top: 20px;
+ position: absolute;
+ bottom:0;
+ left: 0;
+ width: 100%;
+ height: 5px;
+ background: #e73d83;
+}
+.menu-icon{
+ width: 1.45em;
+ margin: auto;
+}
+.nav-link .fa{
+ color:#e73d83;
+}
+.banner-parallax{
+ height: 50vh;
+ overflow: hidden;
+ position: relative;
+ text-align: center;
+}
+.banner-parallax-img{
+ position: absolute;
+ top:0;
+ z-index: 0;
+ opacity: .7;
+}
+.banner-content-wrapper{
+ z-index: 2;
+ position: absolute;
+}
+/*
+####  home  ####
+*/
+
+#home_welcome, #home_carta{
+ height: 90vh;
+}
+/*
+#### Carta ####
+*/
+.carousel_carta{
+ height: calc(100vh - 138px);
+}
+.carousel_carta .carta_markers_container{
+ height: 100%;
+ overflow-y: scroll;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+ background-color: #e73d83;
+ color: #e73d83;
+}
+
+.carta_markers {
+ font-size: .9rem;
+ width: auto;
+ min-width: 200px;
+ color: #000;
+ background-color: #e73d83;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ transition: all 1s ease;
+}
+.carta_markers span{
+ opacity: 0;
+}
+.carta_markers:hover{
+ color: #fff;
+ background-blend-mode: multiply;
+}
+.carta_markers:hover span{
+ opacity: 1;
+}
+
+.imagen_carta{
+ height: calc(100vh - 138px);;
+ background: no-repeat center center scroll;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+/*
+#### Media Queries ####
+*/
+@media only screen and (max-width:1024px){
+ .dish_row{
+  height: 40vh;
+ }
+ #g_navbar .nav-link {
+  font-size: 1em;
+ }
+ .carta_markers_container{
+  max-height: 82vh;
+  overflow-y: scroll;
+ }
+ .carta_markers{
+  min-width: 150px;
+ }
+ .imagen_carta{
+ height:82vh;
+ }
+
+}
+
+@media only screen and (max-width:768px) {
+ body{
+  height: 100%;
+ }
+ #g_navbar .nav-link {
+  font-size: 1rem;
+ }
+.texto_carta{
+  height: 30vh;
+ }
+ .imagen_carta{
+  height: 50vh;
+ }
+
+}
+
+@media only screen and (max-width:425px) {
+ body{
+  height: 100%;
+ }
+ .imagen_carta,.texto_carta{
+  height: 40vh;
+ }
+
+}
